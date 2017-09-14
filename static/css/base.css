@@ -1,0 +1,52 @@
+/*全局*/
+{
+    margin: 0 auto;
+}
+body{
+    background: deepskyblue;
+
+}
+
+
+/*导航栏*/
+.topbar {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+    width:960px;
+
+}
+/*@media (min-width:768px) {*/
+	/*.topbar {*/
+	/*width:750px*/
+/*}*/
+/*}@media (min-width:992px) {*/
+	/*.topbar {*/
+	/*width:960px*/
+/*}*/
+/*}@media (min-width:1200px) {*/
+	/*.topbar {*/
+	/*width:1170px*/
+/*}}*/
+
+/*.nav li a{*/
+    /*font-size: 18px;*/
+    /*font-weight: 200;*/
+
+/*}*/
+/*.navbar-color{*/
+    /*background-color: mediumspringgreen;*/
+/*}*/
+
+
+/*播放器*/
+video{
+    background: black;
+}
+#videoplayer{
+    margin: 0 auto;
+    margin-top:20px ;
+    width: 960px;
+}
+
