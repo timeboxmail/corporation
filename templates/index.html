@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>时光信箱</title>
+		<link rel="icon" href="{% static 'img/logo/mail.ico' %}" type="image/x-icon" />
+		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'css/base.css' %}"/>
+
+		<script type="application/javascript" src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+	    <script language="JavaScript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<!--窗口小于768隐藏导航栏-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigtion</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">导航</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">信箱</a></li>
+						<li><a href="#">写信</a></li>
+						<li><a href="#">读书</a></li>
+						<li><a href="#">音乐</a></li>
+						<li><a href="#">电影</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right" >
+						<li><a href="#">注册</a></li>
+						<li><a href="#">登录</a></li>
+					</ul>
+				</div>
+		 <!--搜索-->
+		  <!--<form class="navbar-form navbar-right" style="margin-right: 100px;">
+		  	<div class="form-group">
+		  		<input type="text" class="form-control" />
+		  	</div>
+		  	<button type="button" class="btn btn-danger">搜索</button>
+		  </form>
+		  <!--文本-->
+		  <!--<a href="#" class="navbar-link">链接</a>
+		  <button type="button" class="btn btn-default navbar-btn">按钮</button>-->
+		</nav>
+
+		
+		<!--<audio controls="controls" autoplay="autoplay" loop="loop" >-->
+		  	<!--<source src="" type="audio/mp3" media="all">-->
+		  	<!--Your browser does not support this audio format.-->
+		<!--</audio>-->
+
+		<!--播放器16:9比例设置-->
+		<div id='videoplayer'>
+			<video controls="controls" width='960px' height='540px' preload="auto" >
+				<source src="http://oss.thoftheocean.cn/mp4/%E3%80%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%80%BB%E5%8A%A8%E5%91%98MV%E3%80%91Devotion%20-%20My%20Prayer%20%E7%94%B5%E5%BD%B1%E7%89%88_%E9%AB%98%E6%B8%85.mp4" type="video/mp4">
+		  		Your browser does not support this video format.
+			</video>
+		</div>
+		<!--分页和翻页-->
+		<!--<ul class=" pagination pagination-sm">
+		  	   <li><a href="#">&laquo;</a></li>
+		  		<li class="active"><a href="#">1</a></li>
+		  		<li><a href="#">2</a></li>
+		  		<li><a href="#">3</a></li>
+		  		<li><a href="#">4</a></li>
+		  		<li><a href="#">5</a></li>
+		  		<li><a href="#">6</a></li>
+		  		<li><a href="#">&raquo;</a></li>
+		  </ul>
+		  <hr />
+		  <ul class="pager">
+		  	<li class="active"><a href="">上一页</a></li>  
+		  		<li><a href="">下一页</a></li>  
+		  </ul>-->
+	</body>
+</html>
